@@ -15,6 +15,8 @@
 		996BC60323DCD3FB00FA24A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996BC60123DCD3FB00FA24A8 /* LaunchScreen.storyboard */; };
 		996BC60E23DCD3FC00FA24A8 /* zeroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996BC60D23DCD3FC00FA24A8 /* zeroTests.swift */; };
 		996BC61C23DCD49F00FA24A8 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996BC61B23DCD49F00FA24A8 /* ThirdViewController.swift */; };
+		996BC61E23DCF32E00FA24A8 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996BC61D23DCF32E00FA24A8 /* Swift+Gif.swift */; };
+		996BC62023DCF60000FA24A8 /* 5_Breathing_in_Circle.gif in Resources */ = {isa = PBXBuildFile; fileRef = 996BC61F23DCF60000FA24A8 /* 5_Breathing_in_Circle.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		996BC60D23DCD3FC00FA24A8 /* zeroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zeroTests.swift; sourceTree = "<group>"; };
 		996BC60F23DCD3FC00FA24A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		996BC61B23DCD49F00FA24A8 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		996BC61D23DCF32E00FA24A8 /* Swift+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
+		996BC61F23DCF60000FA24A8 /* 5_Breathing_in_Circle.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 5_Breathing_in_Circle.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +89,9 @@
 				996BC5F823DCD3FB00FA24A8 /* FirstViewController.swift */,
 				996BC5FA23DCD3FB00FA24A8 /* SecondViewController.swift */,
 				996BC61B23DCD49F00FA24A8 /* ThirdViewController.swift */,
+				996BC61F23DCF60000FA24A8 /* 5_Breathing_in_Circle.gif */,
 				996BC5FC23DCD3FB00FA24A8 /* Main.storyboard */,
+				996BC61D23DCF32E00FA24A8 /* Swift+Gif.swift */,
 				996BC5FF23DCD3FB00FA24A8 /* Assets.xcassets */,
 				996BC60123DCD3FB00FA24A8 /* LaunchScreen.storyboard */,
 				996BC60423DCD3FB00FA24A8 /* Info.plist */,
@@ -185,6 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				996BC62023DCF60000FA24A8 /* 5_Breathing_in_Circle.gif in Resources */,
 				996BC60323DCD3FB00FA24A8 /* LaunchScreen.storyboard in Resources */,
 				996BC60023DCD3FB00FA24A8 /* Assets.xcassets in Resources */,
 				996BC5FE23DCD3FB00FA24A8 /* Main.storyboard in Resources */,
@@ -209,6 +216,7 @@
 				996BC5F723DCD3FB00FA24A8 /* AppDelegate.swift in Sources */,
 				996BC61C23DCD49F00FA24A8 /* ThirdViewController.swift in Sources */,
 				996BC5F923DCD3FB00FA24A8 /* FirstViewController.swift in Sources */,
+				996BC61E23DCF32E00FA24A8 /* Swift+Gif.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +422,7 @@
 				996BC61423DCD3FC00FA24A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		996BC61523DCD3FC00FA24A8 /* Build configuration list for PBXNativeTarget "zeroTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +431,7 @@
 				996BC61723DCD3FC00FA24A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
