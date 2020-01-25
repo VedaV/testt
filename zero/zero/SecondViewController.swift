@@ -10,9 +10,11 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var breathGif: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        breathGif.loadGif(name: "5_Breathing_in_Circle");
     }
 
     override func didReceiveMemoryWarning() {
