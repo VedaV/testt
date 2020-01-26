@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		99252BE723DD326F00F7F01D /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99252BE623DD326F00F7F01D /* FourthViewController.swift */; };
 		996BC5F723DCD3FB00FA24A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996BC5F623DCD3FB00FA24A8 /* AppDelegate.swift */; };
 		996BC5F923DCD3FB00FA24A8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996BC5F823DCD3FB00FA24A8 /* FirstViewController.swift */; };
 		996BC5FB23DCD3FB00FA24A8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996BC5FA23DCD3FB00FA24A8 /* SecondViewController.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		99252BE623DD326F00F7F01D /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		996BC5F323DCD3FB00FA24A8 /* zero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		996BC5F623DCD3FB00FA24A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		996BC5F823DCD3FB00FA24A8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +96,8 @@
 				BF247C3E23DD4F210013EBC8 /* MoodsViewController.swift */,
 				996BC5FA23DCD3FB00FA24A8 /* SecondViewController.swift */,
 				996BC61B23DCD49F00FA24A8 /* ThirdViewController.swift */,
+				99252BE623DD326F00F7F01D /* FourthViewController.swift */,
+				996BC61F23DCF60000FA24A8 /* 5_Breathing_in_Circle.gif */,
 				996BC5FC23DCD3FB00FA24A8 /* Main.storyboard */,
 				996BC5FF23DCD3FB00FA24A8 /* Assets.xcassets */,
 				996BC60123DCD3FB00FA24A8 /* LaunchScreen.storyboard */,
@@ -215,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99252BE723DD326F00F7F01D /* FourthViewController.swift in Sources */,
 				996BC5FB23DCD3FB00FA24A8 /* SecondViewController.swift in Sources */,
 				996BC5F723DCD3FB00FA24A8 /* AppDelegate.swift in Sources */,
 				996BC61C23DCD49F00FA24A8 /* ThirdViewController.swift in Sources */,
