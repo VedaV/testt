@@ -28,7 +28,7 @@
             </objects>
             <point key="canvasLocation" x="750" y="572"/>
         </scene>
-        <!--View Controller-->
+        <!--Item-->
         <scene sceneID="QsA-i6-eIh">
             <objects>
                 <viewController id="o8k-L2-36w" sceneMemberID="viewController">
@@ -39,12 +39,30 @@
                     <view key="view" contentMode="scaleToFill" id="aLp-Sl-jLG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2020-01-25 at 4.06.31 PM" translatesAutoresizingMaskIntoConstraints="NO" id="5yz-hF-BaT">
+                                <rect key="frame" x="0.0" y="-8" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2020-01-25 at 6.29.10 PM" translatesAutoresizingMaskIntoConstraints="NO" id="NNA-f0-C0u">
+                                <rect key="frame" x="48" y="118" width="279" height="431"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kEr-AC-Rml">
+                                <rect key="frame" x="166" y="246" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="Jyx-gO-NNw"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="flg-Aj-sgf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="782" y="981"/>
+            <point key="canvasLocation" x="749.60000000000002" y="1236.4317841079462"/>
         </scene>
         <!--Home-->
         <scene sceneID="hNz-n2-bh7">
@@ -143,6 +161,7 @@
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="hSh-fe-C3x" kind="relationship" relationship="viewControllers" id="hbu-dA-mGi"/>
+                        <segue destination="o8k-L2-36w" kind="relationship" relationship="viewControllers" id="8tC-Fm-JLo"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -151,6 +170,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Screen Shot 2020-01-25 at 4.06.31 PM" width="696" height="474"/>
+        <image name="Screen Shot 2020-01-25 at 6.29.10 PM" width="247" height="373"/>
         <image name="first" width="30" height="30"/>
     </resources>
 </document>
