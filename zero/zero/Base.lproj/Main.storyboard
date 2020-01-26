@@ -26,58 +26,68 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D5g-FK-WA1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="572"/>
+            <point key="canvasLocation" x="362" y="-662"/>
         </scene>
         <!--mood-->
-        <scene sceneID="S1U-hO-HaW">
+        <scene sceneID="qAV-wD-OYj">
             <objects>
-                <viewController id="0sh-wO-JEq" sceneMemberID="viewController">
+                <viewController id="Nku-ff-KCG" customClass="MoodsViewController" customModule="zero" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="zaq-0m-Ol4"/>
-                        <viewControllerLayoutGuide type="bottom" id="iNB-Tz-iJV"/>
+                        <viewControllerLayoutGuide type="top" id="Rww-0R-RUR"/>
+                        <viewControllerLayoutGuide type="bottom" id="eGK-p7-82t"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="pe4-kY-QEz">
+                    <view key="view" contentMode="scaleToFill" id="Rtl-Eh-QW6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ja-Tz-Gra">
-                                <rect key="frame" x="38" y="511" width="70" height="70"/>
+                                <rect key="frame" x="152" y="519" width="70" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="1"/>
                                 <connections>
-                                    <action selector="m1:" destination="hj3-3B-HEY" eventType="touchUpInside" id="MWC-NY-9SY"/>
-                                    <action selector="mood_1:" destination="hj3-3B-HEY" eventType="touchUpInside" id="Kke-1E-cqp"/>
+                                    <action selector="m1:" destination="Nku-ff-KCG" eventType="touchUpInside" id="vM4-Tp-Ar6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PyB-Sh-ME4">
-                                <rect key="frame" x="91" y="413" width="70" height="70"/>
+                                <rect key="frame" x="152" y="406" width="70" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="2"/>
+                                <connections>
+                                    <action selector="m2:" destination="Nku-ff-KCG" eventType="touchUpInside" id="ECp-dL-kTC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dnt-Uo-baa">
-                                <rect key="frame" x="152" y="313" width="70" height="70"/>
+                                <rect key="frame" x="152" y="298" width="70" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="3"/>
+                                <connections>
+                                    <action selector="m3:" destination="Nku-ff-KCG" eventType="touchUpInside" id="jnq-7B-uPg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fjn-Xk-qp3">
-                                <rect key="frame" x="201" y="205" width="70" height="70"/>
+                                <rect key="frame" x="152" y="178" width="70" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="4"/>
+                                <connections>
+                                    <action selector="m4:" destination="Nku-ff-KCG" eventType="touchUpInside" id="kRA-CJ-vxe"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ct5-fl-jEg">
-                                <rect key="frame" x="260" y="95" width="70" height="70"/>
+                                <rect key="frame" x="152" y="56" width="70" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="5"/>
+                                <connections>
+                                    <action selector="m5:" destination="Nku-ff-KCG" eventType="touchUpInside" id="Twh-C3-4oz"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="mood" id="JZs-Ai-mnj"/>
+                    <tabBarItem key="tabBarItem" title="mood" id="D2F-Ns-5WD"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hWR-8r-GLc" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="hj3-3B-HEY" userLabel="Exit" sceneMemberID="exit"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5m2-yA-fuH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749.60000000000002" y="-1654.7226386806599"/>
+            <point key="canvasLocation" x="938" y="-1892"/>
         </scene>
         <!--Home-->
         <scene sceneID="hNz-n2-bh7">
@@ -119,7 +129,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749.60000000000002" y="-944.07796101949032"/>
+            <point key="canvasLocation" x="1081" y="-1057"/>
         </scene>
         <!--breathing-->
         <scene sceneID="wg7-f3-ORb">
@@ -155,7 +165,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749.60000000000002" y="-179.46026986506749"/>
+            <point key="canvasLocation" x="1041" y="-328"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -171,7 +181,7 @@
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="hSh-fe-C3x" kind="relationship" relationship="viewControllers" id="hbu-dA-mGi"/>
-                        <segue destination="0sh-wO-JEq" kind="relationship" relationship="viewControllers" id="6sR-zF-f6T"/>
+                        <segue destination="Nku-ff-KCG" kind="relationship" relationship="viewControllers" id="irW-mS-Vk3"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
