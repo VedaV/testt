@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G22010" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -98,6 +98,67 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hWR-8r-GLc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="996" y="806"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="7NE-7W-zMo">
+            <objects>
+                <viewController id="cKW-mq-CxZ" customClass="MoodsViewController" customModule="zero" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Irk-R2-05y"/>
+                        <viewControllerLayoutGuide type="bottom" id="cLc-JE-q8n"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NFS-Ud-kTl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w0e-kh-RwI">
+                                <rect key="frame" x="180" y="540" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="1"/>
+                                <connections>
+                                    <action selector="m1:" destination="cKW-mq-CxZ" eventType="touchUpInside" id="urg-jo-J0h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l3B-1s-Xnu">
+                                <rect key="frame" x="180" y="426" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="2"/>
+                                <connections>
+                                    <action selector="m2:" destination="cKW-mq-CxZ" eventType="touchUpInside" id="6s8-hS-rCB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ay-3o-Euq">
+                                <rect key="frame" x="180" y="311" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="3"/>
+                                <connections>
+                                    <action selector="m3:" destination="cKW-mq-CxZ" eventType="touchUpInside" id="2tr-kw-Upg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBb-ft-ksL">
+                                <rect key="frame" x="180" y="186" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="4"/>
+                                <connections>
+                                    <action selector="m4:" destination="cKW-mq-CxZ" eventType="touchUpInside" id="56f-Sv-0Se"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aMg-Hy-hp5">
+                                <rect key="frame" x="180" y="59" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="5"/>
+                                <connections>
+                                    <action selector="m5:" destination="cKW-mq-CxZ" eventType="touchUpInside" id="9HL-P5-eJE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="gOt-PW-SO3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fy5-6o-Vj9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="325.60000000000002" y="1365.9670164917543"/>
         </scene>
         <!--Home-->
         <scene sceneID="hNz-n2-bh7">
@@ -192,6 +253,7 @@
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="hSh-fe-C3x" kind="relationship" relationship="viewControllers" id="hbu-dA-mGi"/>
                         <segue destination="Nku-ff-KCG" kind="relationship" relationship="viewControllers" id="HU0-CG-s1F"/>
+                        <segue destination="cKW-mq-CxZ" kind="relationship" relationship="viewControllers" id="AuW-9G-yFa"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -200,6 +262,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="1" width="180" height="180"/>
+        <image name="2" width="180" height="182"/>
+        <image name="3" width="180" height="180"/>
+        <image name="4" width="178" height="178"/>
+        <image name="5" width="178" height="178"/>
         <image name="Screen Shot 2020-01-25 at 4.06.31 PM" width="696" height="474"/>
         <image name="Screen Shot 2020-01-25 at 6.29.10 PM" width="247" height="373"/>
         <image name="first" width="30" height="30"/>
