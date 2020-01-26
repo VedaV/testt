@@ -18,6 +18,7 @@
 		996BC61C23DCD49F00FA24A8 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996BC61B23DCD49F00FA24A8 /* ThirdViewController.swift */; };
 		BF247C2F23DD04AB0013EBC8 /* 5_Breathing_in_Circle.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF247C2E23DD04AA0013EBC8 /* 5_Breathing_in_Circle.gif */; };
 		BF247C3123DD05300013EBC8 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF247C3023DD05300013EBC8 /* Swift+Gif.swift */; };
+		BF247C3F23DD4F210013EBC8 /* MoodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF247C3E23DD4F210013EBC8 /* MoodsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		996BC61B23DCD49F00FA24A8 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		BF247C2E23DD04AA0013EBC8 /* 5_Breathing_in_Circle.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 5_Breathing_in_Circle.gif; sourceTree = "<group>"; };
 		BF247C3023DD05300013EBC8 /* Swift+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
+		BF247C3E23DD4F210013EBC8 /* MoodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				BF247C2E23DD04AA0013EBC8 /* 5_Breathing_in_Circle.gif */,
 				996BC5F623DCD3FB00FA24A8 /* AppDelegate.swift */,
 				996BC5F823DCD3FB00FA24A8 /* FirstViewController.swift */,
+				BF247C3E23DD4F210013EBC8 /* MoodsViewController.swift */,
 				996BC5FA23DCD3FB00FA24A8 /* SecondViewController.swift */,
 				996BC61B23DCD49F00FA24A8 /* ThirdViewController.swift */,
 				99252BE623DD326F00F7F01D /* FourthViewController.swift */,
@@ -220,6 +223,7 @@
 				996BC5FB23DCD3FB00FA24A8 /* SecondViewController.swift in Sources */,
 				996BC5F723DCD3FB00FA24A8 /* AppDelegate.swift in Sources */,
 				996BC61C23DCD49F00FA24A8 /* ThirdViewController.swift in Sources */,
+				BF247C3F23DD4F210013EBC8 /* MoodsViewController.swift in Sources */,
 				996BC5F923DCD3FB00FA24A8 /* FirstViewController.swift in Sources */,
 				BF247C3123DD05300013EBC8 /* Swift+Gif.swift in Sources */,
 			);
