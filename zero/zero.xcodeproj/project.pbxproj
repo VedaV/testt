@@ -16,8 +16,8 @@
 		996BC60323DCD3FB00FA24A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996BC60123DCD3FB00FA24A8 /* LaunchScreen.storyboard */; };
 		996BC60E23DCD3FC00FA24A8 /* zeroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996BC60D23DCD3FC00FA24A8 /* zeroTests.swift */; };
 		996BC61C23DCD49F00FA24A8 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996BC61B23DCD49F00FA24A8 /* ThirdViewController.swift */; };
-		996BC61E23DCF32E00FA24A8 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996BC61D23DCF32E00FA24A8 /* Swift+Gif.swift */; };
-		996BC62023DCF60000FA24A8 /* 5_Breathing_in_Circle.gif in Resources */ = {isa = PBXBuildFile; fileRef = 996BC61F23DCF60000FA24A8 /* 5_Breathing_in_Circle.gif */; };
+		BF247C2F23DD04AB0013EBC8 /* 5_Breathing_in_Circle.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF247C2E23DD04AA0013EBC8 /* 5_Breathing_in_Circle.gif */; };
+		BF247C3123DD05300013EBC8 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF247C3023DD05300013EBC8 /* Swift+Gif.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +44,8 @@
 		996BC60D23DCD3FC00FA24A8 /* zeroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zeroTests.swift; sourceTree = "<group>"; };
 		996BC60F23DCD3FC00FA24A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		996BC61B23DCD49F00FA24A8 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
-		996BC61D23DCF32E00FA24A8 /* Swift+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
-		996BC61F23DCF60000FA24A8 /* 5_Breathing_in_Circle.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 5_Breathing_in_Circle.gif; sourceTree = "<group>"; };
+		BF247C2E23DD04AA0013EBC8 /* 5_Breathing_in_Circle.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 5_Breathing_in_Circle.gif; sourceTree = "<group>"; };
+		BF247C3023DD05300013EBC8 /* Swift+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +87,8 @@
 		996BC5F523DCD3FB00FA24A8 /* zero */ = {
 			isa = PBXGroup;
 			children = (
+				BF247C3023DD05300013EBC8 /* Swift+Gif.swift */,
+				BF247C2E23DD04AA0013EBC8 /* 5_Breathing_in_Circle.gif */,
 				996BC5F623DCD3FB00FA24A8 /* AppDelegate.swift */,
 				996BC5F823DCD3FB00FA24A8 /* FirstViewController.swift */,
 				996BC5FA23DCD3FB00FA24A8 /* SecondViewController.swift */,
@@ -94,7 +96,6 @@
 				99252BE623DD326F00F7F01D /* FourthViewController.swift */,
 				996BC61F23DCF60000FA24A8 /* 5_Breathing_in_Circle.gif */,
 				996BC5FC23DCD3FB00FA24A8 /* Main.storyboard */,
-				996BC61D23DCF32E00FA24A8 /* Swift+Gif.swift */,
 				996BC5FF23DCD3FB00FA24A8 /* Assets.xcassets */,
 				996BC60123DCD3FB00FA24A8 /* LaunchScreen.storyboard */,
 				996BC60423DCD3FB00FA24A8 /* Info.plist */,
@@ -156,7 +157,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Veda Valiveti";
 				TargetAttributes = {
 					996BC5F223DCD3FB00FA24A8 = {
@@ -194,7 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				996BC62023DCF60000FA24A8 /* 5_Breathing_in_Circle.gif in Resources */,
+				BF247C2F23DD04AB0013EBC8 /* 5_Breathing_in_Circle.gif in Resources */,
 				996BC60323DCD3FB00FA24A8 /* LaunchScreen.storyboard in Resources */,
 				996BC60023DCD3FB00FA24A8 /* Assets.xcassets in Resources */,
 				996BC5FE23DCD3FB00FA24A8 /* Main.storyboard in Resources */,
@@ -220,7 +221,7 @@
 				996BC5F723DCD3FB00FA24A8 /* AppDelegate.swift in Sources */,
 				996BC61C23DCD49F00FA24A8 /* ThirdViewController.swift in Sources */,
 				996BC5F923DCD3FB00FA24A8 /* FirstViewController.swift in Sources */,
-				996BC61E23DCF32E00FA24A8 /* Swift+Gif.swift in Sources */,
+				BF247C3123DD05300013EBC8 /* Swift+Gif.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,15 +272,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -321,15 +330,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
